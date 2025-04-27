@@ -1,47 +1,47 @@
 /venv
 # Miscellaneous
-others/signpred/*.class
-others/signpred/*.log
-others/signpred/*.pyc
-others/signpred/*.swp
-others/signpred/.DS_Store
-others/signpred/.atom/
-others/signpred/.build/
-others/signpred/.buildlog/
-others/signpred/.history
-others/signpred/.svn/
-others/signpred/.swiftpm/
-others/signpred/migrate_working_dir/
-others/signpred/backend/secret.env
+others/android-front/signpred/*.class
+others/android-front/signpred/*.log
+others/android-front/signpred/*.pyc
+others/android-front/signpred/*.swp
+others/android-front/signpred/.DS_Store
+others/android-front/signpred/.atom/
+others/android-front/signpred/.build/
+others/android-front/signpred/.buildlog/
+others/android-front/signpred/.history
+others/android-front/signpred/.svn/
+others/android-front/signpred/.swiftpm/
+others/android-front/signpred/migrate_working_dir/
+others/android-front/signpred/backend/secret.env
 
 # IntelliJ related
-others/signpred/*.iml
-others/signpred/*.ipr
-others/signpred/*.iws
-others/signpred/.idea/
+others/android-front/signpred/*.iml
+others/android-front/signpred/*.ipr
+others/android-front/signpred/*.iws
+others/android-front/signpred/.idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#others/signpred/.vscode/
+#others/android-front/signpred/.vscode/
 
 # Flutter/Dart/Pub related
-others/signpred/**/doc/api/
-others/signpred/**/ios/Flutter/.last_build_id
-others/signpred/.dart_tool/
-others/signpred/.flutter-plugins
-others/signpred/.flutter-plugins-dependencies
-others/signpred/.pub-cache/
-others/signpred/.pub/
-others/signpred//build/
+others/android-front/signpred/**/doc/api/
+others/android-front/signpred/**/ios/Flutter/.last_build_id
+others/android-front/signpred/.dart_tool/
+others/android-front/signpred/.flutter-plugins
+others/android-front/signpred/.flutter-plugins-dependencies
+others/android-front/signpred/.pub-cache/
+others/android-front/signpred/.pub/
+others/android-front/signpred//build/
 
 # Symbolication related
-others/signpred/app.*.symbols
+others/android-front/signpred/app.*.symbols
 
 # Obfuscation related
-others/signpred/app.*.map.json
+others/android-front/signpred/app.*.map.json
 
 # Android Studio will place build artifacts here
-others/signpred/android/app/debug
-others/signpred/android/app/profile
-others/signpred/android/app/release
+others/android-front/signpred/android/app/debug
+others/android-front/signpred/android/app/profile
+others/android-front/signpred/android/app/release

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISL Project</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<!-- Webcam -->
+<div class="video-container">
+    <video id="video" autoplay playsinline></video>
+</div>
+<div class="button-container">
+    <button class="btn" onclick="startWebcam()">Start Webcam</button>
+    <button class="btn stop" onclick="stopWebcam()">Stop Webcam</button>
+</div>
+
+<!-- Output -->
+<div class="output-container">
+    <h2>Recognition Result:</h2>
+    <div id="result-box">Waiting for gesture...</div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; GESTURA</p>
+</footer>
+
+<script src="/scripts/scripts.js"></script>
+</body>
+</html>
