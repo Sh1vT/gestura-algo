@@ -85,8 +85,8 @@ def close_app():
     root.destroy()
 
 # Modern UI with customtkinter
-ctk.set_appearance_mode("dark")
-ctk.set_default_color_theme("blue")
+# ctk.set_appearance_mode("light")
+# ctk.set_default_color_theme("blue")
 
 root = ctk.CTk()
 root.title("Gesture Capture UI")
@@ -94,28 +94,28 @@ root.geometry("550x650")
 root.protocol("WM_DELETE_WINDOW", close_app)
 
 frame = ctk.CTkFrame(root)
-frame.pack(pady=20, padx=20, fill="both", expand=True)
+frame.pack(fill="both", expand=True)
 
 webcam_label = ctk.CTkLabel(frame, text="", width=400, height=300)
 webcam_label.pack(pady=10)
 update_webcam()
 
-status_label = ctk.CTkLabel(frame, text="Record gestures using the buttons", text_color="white")
+status_label = ctk.CTkLabel(frame, text="Record gestures using the buttons", text_color="black")
 status_label.pack(pady=10)
 
 buttons = [
-    ("Record Start Frame", "green", lambda: capture_frame("start")),
-    ("Record Mid1 Frame", "orange", lambda: capture_frame("mid1")),
-    ("Record Mid2 Frame", "purple", lambda: capture_frame("mid2")),
-    ("Record End Frame", "red", lambda: capture_frame("end")),
-    ("Save Gesture", "blue", save_gesture)
+    ("Record Start Frame", "#27ae60", lambda: capture_frame("start")),
+    ("Record Mid1 Frame", "#3498db", lambda: capture_frame("mid1")),
+    ("Record Mid2 Frame", "#27ae60", lambda: capture_frame("mid2")),
+    ("Record End Frame", "#3498db", lambda: capture_frame("end")),
+    ("Save Gesture", "#9b59b6", save_gesture)
 ]
 
 for text, color, command in buttons:
-    btn = ctk.CTkButton(frame, text=text, fg_color=color, command=command)
+    btn = ctk.CTkButton(frame, text=text, fg_color=color, command=command, text_color="white")
     btn.pack(pady=5, padx=20, fill="x")
 
-btn_exit = ctk.CTkButton(frame, text="Exit", fg_color="gray", command=close_app)
+btn_exit = ctk.CTkButton(frame, text="Exit", fg_color="gray", command=close_app, text_color="white")
 btn_exit.pack(pady=10, padx=20, fill="x")
 
 root.mainloop()
