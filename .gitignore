@@ -1,0 +1,47 @@
+/venv
+# Miscellaneous
+others/signpred/*.class
+others/signpred/*.log
+others/signpred/*.pyc
+others/signpred/*.swp
+others/signpred/.DS_Store
+others/signpred/.atom/
+others/signpred/.build/
+others/signpred/.buildlog/
+others/signpred/.history
+others/signpred/.svn/
+others/signpred/.swiftpm/
+others/signpred/migrate_working_dir/
+others/signpred/backend/secret.env
+
+# IntelliJ related
+others/signpred/*.iml
+others/signpred/*.ipr
+others/signpred/*.iws
+others/signpred/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#others/signpred/.vscode/
+
+# Flutter/Dart/Pub related
+others/signpred/**/doc/api/
+others/signpred/**/ios/Flutter/.last_build_id
+others/signpred/.dart_tool/
+others/signpred/.flutter-plugins
+others/signpred/.flutter-plugins-dependencies
+others/signpred/.pub-cache/
+others/signpred/.pub/
+others/signpred//build/
+
+# Symbolication related
+others/signpred/app.*.symbols
+
+# Obfuscation related
+others/signpred/app.*.map.json
+
+# Android Studio will place build artifacts here
+others/signpred/android/app/debug
+others/signpred/android/app/profile
+others/signpred/android/app/release
