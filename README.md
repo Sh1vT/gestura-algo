@@ -1,4 +1,5 @@
 # Gesture Detection System
+> [Documentation](https://docs.google.com/document/d/1ibAFSSe_1cYrLPXme5SaOQHpOIL54ppLaHoBJNgK54A/edit?usp=sharing)
 
 ## Overview
 A lightweight, real-time hand gesture detection system using MediaPipe and Dynamic Time Warping (DTW) for gesture matching. The system allows users to define custom gestures and link them to commands, enabling hands-free control for desktop applications.
